@@ -97,6 +97,9 @@ export const StateContext = ({ children }) => {
     decQty,
     onAdd,
     onRemove,
+    setCartItems,
+    setTotalPrice,
+    setTotalQuantities,
   };
 
   return <Context.Provider value={value}>{children}</Context.Provider>;
